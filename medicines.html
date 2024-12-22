@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocNearby - Order Medicines</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <h1>DocNearby</h1>
+            <ul>
+                <li><a href="index.html#nearby-doctors">Nearby Doctors</a></li>
+                <li><a href="index.html#consultations">Consultations</a></li>
+                <li><a href="index.html#appointments">My Appointments</a></li>
+                <li><a href="medicines.html">Order Medicines</a></li>
+                <li><a href="index.html#doctor-articles">Health Articles</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+        <script src="https://fontawesome.com/v6/icons/moon?f=sharp-duotone&s=solid" crossorigin="anonymous"></script>
+    </header>
+
+    <main>
+        <section class="medicine-search container">
+            <h2>Search for Medicines</h2>
+            <div class="search-bar">
+                <input type="text" id="medicine-search-input" placeholder="Search for medicines...">
+                <button id="medicine-search-button">Search</button>
+            </div>
+            <div id="medicine-results" class="medicine-results">
+                <!-- Medicine results will be dynamically added here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>DocNearby is your trusted platform for finding and booking appointments with the best doctors in your area.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Email: info@docnearby.com</p>
+                    <p>Phone: (123) 456-7890</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 DocNearby. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="medicines.js"></script>
+</body>
+</html>
